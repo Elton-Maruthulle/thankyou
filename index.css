@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'font1';
+    src: url(fonts/Sentient-Regular.otf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(fonts/Sentient-Bold.otf);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(fonts/Hanibee.otf);
+}
+@font-face {
+    font-family: 'font4';
+    src: url(fonts/Bizon.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:white;
+    background-color: black;
+}
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'font4';
+    
+}
+.thanku{
+    font-size: 500%;
+    font-family: 'font3';
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
